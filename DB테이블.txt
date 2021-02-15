@@ -1,0 +1,21 @@
+create table guest(
+id varchar2(20) primary key,
+point number,
+fishcnt number);
+
+
+create table fish(
+name varchar2(20),
+speed number,
+movement number,
+probablity number);
+
+
+insert into fish values('°íµî¾î',30,1,100);
+insert into fish values('º¼¶ô',50,2,80);
+insert into fish values('Âüµ¼',70,3,60);
+insert into fish values('°¨¼ºµ¼',90,4,40);
+insert into fish values('ÁÙµ¼',110,5,20);
+
+
+
